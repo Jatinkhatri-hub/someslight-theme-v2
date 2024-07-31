@@ -4134,7 +4134,7 @@ input[type=range]::-moz-range-thumb {
   margin: 0 auto;
 }
 
-@media screen {
+@media screen and (min-width: 78) {
   
 }
 

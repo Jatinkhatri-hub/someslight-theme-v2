@@ -171,6 +171,57 @@
         "padding_bottom": 36
       }
     },
+    "benefits_D9qL8t": {
+      "type": "benefits",
+      "blocks": {
+        "benefit_eReW98": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": ""
+          }
+        },
+        "benefit_b3Abae": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": ""
+          }
+        },
+        "benefit_hUwbdP": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": ""
+          }
+        },
+        "benefit_pPMdpJ": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": ""
+          }
+        },
+        "benefit_fL7pFf": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": ""
+          }
+        },
+        "benefit_AU8ANT": {
+          "type": "benefit",
+          "settings": {
+            "benefit_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "benefit_eReW98",
+        "benefit_b3Abae",
+        "benefit_hUwbdP",
+        "benefit_pPMdpJ",
+        "benefit_fL7pFf",
+        "benefit_AU8ANT"
+      ],
+      "settings": {
+      }
+    },
     "banner_HNaLRD": {
       "type": "banner",
       "blocks": {
@@ -1068,6 +1119,7 @@
     "section_review_XCkm6Q",
     "section_review_manual_6EqwjX",
     "section_celebrity_testimonial_awJHxF",
+    "benefits_D9qL8t",
     "banner_HNaLRD",
     "liquid_eBAHgU",
     "094c4df8-8525-42e9-8423-2d9dfeadb5fe",

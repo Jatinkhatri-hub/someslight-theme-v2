@@ -4136,7 +4136,7 @@ input[type=range]::-moz-range-thumb {
 
 @media screen and (min-width: 789px) {
   .page-width {
-    padding: 0 3.571;
+    padding: 0 3.571rem;
   }
 }
 

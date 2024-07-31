@@ -169,7 +169,9 @@
   }
   
 
-  .ver
+  .review-manual__name {
+    font-size: 18px;
+  }
 
   .review-manual__verified-badge svg {
     width: 20px;

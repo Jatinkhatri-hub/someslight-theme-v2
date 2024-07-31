@@ -43,6 +43,10 @@
   justify-content: center;
 }
 
+.review-star__wrapper {
+  displ;
+}
+
 .banner__review-text {
   font-size: 0.857rem;
   line-height: 1.286rem;

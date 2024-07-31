@@ -64,7 +64,7 @@
   height: 230px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: baseline;
   gap: .429rem;
   /* padding-block: 4rem; */

@@ -213,6 +213,17 @@
         "padding_bottom": 36
       }
     },
+    "all_products_YygYK6": {
+      "type": "all-products",
+      "settings": {
+        "theme_img": "shopify:\/\/shop_images\/2_3.png",
+        "theme_mobile_img": "shopify:\/\/shop_images\/4_1.png",
+        "background_color": "#d7d7d7",
+        "collection_id": "test-collection",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "section_review_XCkm6Q": {
       "type": "section-review",
       "blocks": {
@@ -422,6 +433,7 @@
     "all_products_YUq8xH",
     "all_products_Y7mXQh",
     "section_celebrity_testimonial_awJHxF",
+    "all_products_YygYK6",
     "section_review_XCkm6Q",
     "section_review_manual_6EqwjX",
     "benefits_D9qL8t",

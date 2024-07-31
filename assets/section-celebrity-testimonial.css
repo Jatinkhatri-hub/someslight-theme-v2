@@ -31,7 +31,7 @@
   object-fit: cover;
 }
 
-.testimonial__card-img- {
+.testimonial__card-img {
   width: 115px;
   height: 250px;
   object-fit: cover;
@@ -58,6 +58,7 @@
 
 .testimonial__card-celeb-wrapper {
   font-size: 1.217rem;
+  display: flex;
 }
 
 .verified-badge {

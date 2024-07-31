@@ -199,6 +199,7 @@
     font-size: 21px;
     font-weight: bolder;
     color: #7c7c7c;
+    text-decoration: line-through;
 }
 .bundle-price h4{
     font-size: 17px;

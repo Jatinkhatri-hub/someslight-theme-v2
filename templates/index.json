@@ -74,6 +74,18 @@
             "image": "shopify:\/\/shop_images\/gug-gum-review-1.png"
           }
         },
+        "image_carousel_fwah7W": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-6.png"
+          }
+        },
+        "image_carousel_HXTMHf": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-2.png"
+          }
+        },
         "value_point_kGU3iW": {
           "type": "value_point",
           "settings": {
@@ -110,6 +122,8 @@
         "image_carousel_6NcNDn",
         "image_carousel_fbREzC",
         "image_carousel_k7WLXy",
+        "image_carousel_fwah7W",
+        "image_carousel_HXTMHf",
         "value_point_kGU3iW",
         "value_point_4XKemj",
         "value_point_QBAAaF",

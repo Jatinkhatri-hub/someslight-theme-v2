@@ -64,6 +64,7 @@ function showPopup(productElement) {
     productPopupBG.style.display = "flex";
     popupProductName.innerHTML = productData.title;
     popupProductPrice.innerHTML = `$${(productData.price / 100).toFixed(2)}`;
+    
     popupProductComparePrice.innerHTML = `$${(productData.compareAtPrice / 100).toFixed(2)}`;
 
     // Clear existing carousel images

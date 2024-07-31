@@ -43,6 +43,11 @@
   gap: .741rem;
 }
 
+.review-manual__star-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 .review-manual__star-wrapper svg {
   width: 22px;
   height: 22px;

@@ -263,6 +263,7 @@
         border-top-right-radius: 20px;
         margin: 0;
         left: 10%;
+        gap: 1.5rem;
     }
     .bundle-heading{
         gap: 12px;

@@ -114,7 +114,10 @@
 
   .swiper-button-prev {
     left: 350px;
-    right: 
+  }
+
+  .swiper-button-next {
+    right: ;
   }
 }
 

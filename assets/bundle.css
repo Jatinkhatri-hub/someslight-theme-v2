@@ -238,7 +238,9 @@
 }
 
 
-.bundle-baseline-text 
+.bundle-baseline-text svg path {
+    fill: #000;
+}
 
 
 

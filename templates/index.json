@@ -9,6 +9,54 @@
 */
 {
   "sections": {
+    "section_review_XCkm6Q": {
+      "type": "section-review",
+      "blocks": {
+        "review_card_xGCeKB": {
+          "type": "review_card",
+          "settings": {
+            "name": "Name",
+            "description": "Lorem ipsum dolor sit amet"
+          }
+        },
+        "review_card_CPW4qw": {
+          "type": "review_card",
+          "settings": {
+            "name": "Name",
+            "description": "Lorem ipsum dolor sit amet"
+          }
+        },
+        "review_card_k3Pyjz": {
+          "type": "review_card",
+          "settings": {
+            "name": "Name",
+            "description": "Lorem ipsum dolor sit amet"
+          }
+        },
+        "review_card_yinYGj": {
+          "type": "review_card",
+          "settings": {
+            "name": "Name",
+            "description": "Lorem ipsum dolor sit amet"
+          }
+        }
+      },
+      "block_order": [
+        "review_card_xGCeKB",
+        "review_card_CPW4qw",
+        "review_card_k3Pyjz",
+        "review_card_yinYGj"
+      ],
+      "settings": {
+        "title": "Loved By 3,000+ Happy Otakus ",
+        "description": "Hear what thousands of satisfied customers have to say.",
+        "reverse_check": false,
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner_HNaLRD": {
       "type": "banner",
       "blocks": {
@@ -903,6 +951,7 @@
     }
   },
   "order": [
+    "section_review_XCkm6Q",
     "banner_HNaLRD",
     "liquid_eBAHgU",
     "094c4df8-8525-42e9-8423-2d9dfeadb5fe",

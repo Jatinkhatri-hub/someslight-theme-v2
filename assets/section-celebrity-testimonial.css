@@ -32,5 +32,6 @@
 
 .testimonial__card-img- {
   width: 115px;
-  height: ;
+  height: 250px;
+  object-fit: cover;
 }

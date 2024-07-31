@@ -80,7 +80,7 @@
   border-radius: 6px;
   overflow: hidden;
   object-fit: cover;
-  padding-block: 1rem;
+  padding-block: 0.714rem;
 }
 
 .banner__review-img {

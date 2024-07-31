@@ -1,0 +1,170 @@
+.review-auto__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-auto__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 3rem ;
+  padding-inline: 3rem;
+}
+
+.review-auto__title {
+  font-size: 2.6rem;
+  text-align: center;
+  margin: 0;
+}
+
+.review-auto__description {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 0;
+  color: black;
+  padding-bottom: 5rem;
+}
+
+.review-auto__card {
+  width: 430px;
+  height: 230px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border: 1px solid #e9e9e9;
+  border-radius: 2rem;
+  gap: 1.5rem;
+  background: #F3F3F3;
+  margin-top: 2rem;
+  
+}
+
+.review-auto__img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 230px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.review-auto__img {
+  width: 180px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.review-auto__info {
+  width: 250px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: .6rem;
+  /* padding-block: 4rem; */
+  background: #F3F3F3;
+}
+
+.review-auto__star-wrapper svg {
+  width: 20px;
+  height: 20px;
+}
+
+.review-auto__card-description {
+  font-size: 1.4rem;
+  text-align: start;
+  color: #212121;
+  margin: 0
+}
+
+.review-auto__name {
+  font-size: 1.7rem;
+  color: #000;
+}
+
+.review-auto__verified-badge {
+  font-size: 1rem;
+  color: #414141;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.review-auto__verified-badge svg {
+  width: 10px;
+  height: 10px;
+}
+
+.review-auto__verified-badge svg path {
+  fill: #414141;
+}
+
+
+
+@media screen and (min-width: 789px) {
+  .review-auto__title {
+    font-size: 4.2rem;
+  }
+
+  .review-auto__description {
+    font-size: 1.8rem;
+  }
+
+  .review-auto__card {
+    width: 620px;
+    height: 300px;
+  }
+
+
+  .review-auto__img-wrapper {
+    width: 240px;
+    height: 300px;
+  }
+
+  .review-auto__img {
+    width: 240px;
+    height: 300px;
+  }
+
+  .review-auto__info {
+    width: 320px;
+    height: 300px;
+  }
+
+  .review-auto__star-wrapper svg {
+    width: 27px;
+    height: 27px;
+  }
+
+  .review-auto__card-description {
+    font-size: 1.8rem;
+  }
+
+
+
+  .review-auto__name {
+    font-size: 2rem;
+  }
+
+
+  .review-auto__verified-badge svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .review-auto__verified-badge {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+

@@ -3,7 +3,7 @@
     width: 100vw; */
     /* padding: 20px 195px; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 8px;
@@ -49,8 +49,8 @@
     padding-bottom: 0;
     margin-bottom: 0;
     text-align: center;
-    padding: 0px 15px;
-    font-weight: bold;
+    margin-top: ;
+    
 }
 
 

@@ -140,8 +140,8 @@
   padding: 0;
 }
 
-.collection-btn-next {
-  top: -340px
+.collection-btn-next .collection-btn-prev {
+  top: -340px;
 }
 
 /* Media Queries for Responsiveness */

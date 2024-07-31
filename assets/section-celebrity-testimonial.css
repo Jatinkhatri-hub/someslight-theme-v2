@@ -24,5 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  wd
+  width: 115px;
+  height: 250px;
+  
 }

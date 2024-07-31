@@ -123,6 +123,10 @@
     gap: 1rem
   }
 
+  .celeb-name {
+    font-size: 20px;
+  }
+
   .verified-badge svg {
     width: 20px;
     height: 20px;

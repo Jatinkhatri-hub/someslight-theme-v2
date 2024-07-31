@@ -64,8 +64,6 @@
         "title": "Loved By 3,000+ Happy Otakus ",
         "description": "Hear what thousands of satisfied customers have to say.",
         "reverse_check": false,
-        "section_color_scheme": "",
-        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -124,8 +122,29 @@
       "settings": {
         "title": "Header",
         "description": "Lorem ipsum dolor sit amet",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_celebrity_testimonial_awJHxF": {
+      "type": "section-celebrity-testimonial",
+      "blocks": {
+        "testimonial_card_UMkTTp": {
+          "type": "testimonial_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_24.png",
+            "title": "Lorem ipsum dolor sit amet consectetur.",
+            "name": "Alex Eubank",
+            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum  semper feugiat leo. Interdum quam laoreet.”"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_card_UMkTTp"
+      ],
+      "settings": {
+        "title": "Header",
+        "description": "Lorem ipsum dolor sit amet",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1026,6 +1045,7 @@
   "order": [
     "section_review_XCkm6Q",
     "section_review_manual_6EqwjX",
+    "section_celebrity_testimonial_awJHxF",
     "banner_HNaLRD",
     "liquid_eBAHgU",
     "094c4df8-8525-42e9-8423-2d9dfeadb5fe",

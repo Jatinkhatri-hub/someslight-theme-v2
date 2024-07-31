@@ -88,8 +88,11 @@
   }
 
   .testimonial__card-img {
-    width: 
+    width: 220px;
+    height: 350px;
   }
+
+  
   
 }
 

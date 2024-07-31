@@ -4,6 +4,7 @@
   align-items: center;
   padding: 1.429rem 1.214rem ;
   flex-direction: column;
+  gap: 3rem;
 }
 
 .testimonial__title {

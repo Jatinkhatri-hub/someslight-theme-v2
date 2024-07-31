@@ -196,6 +196,12 @@
       font-size: 15px;
       top: 50%;
   }
+
+  .desktop-theme__img {
+    display: none;
+  }
+
+  .
 }
 
 @media(min-width : 481px) and (max-width : 700px){

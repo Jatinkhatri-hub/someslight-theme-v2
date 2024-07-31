@@ -105,8 +105,8 @@
     {% endif %}
   </div>
 </div>
-
-{{ 'https://unpkg.com/swiper/swiper-bundle.min.js' | script_tag }}
+{% comment %} 
+{{ 'https://unpkg.com/swiper/swiper-bundle.min.js' | script_tag }} {% endcomment %}
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {

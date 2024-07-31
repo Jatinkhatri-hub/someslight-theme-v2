@@ -5,6 +5,7 @@
   padding: 0 1.214rem ;
   flex-direction: column;
   gap: 3rem;
+  background-color: white;
 }
 
 .testimonial__title {

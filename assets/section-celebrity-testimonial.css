@@ -28,6 +28,7 @@
   height: 250px;
   overflow: hidden;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .testimonial__card-img- {

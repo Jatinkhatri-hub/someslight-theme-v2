@@ -20,6 +20,7 @@
 .theme-img img {
   height: 97px;
   width: 527px;
+  object-fit: cover;
 }
 
 .carousel-container {

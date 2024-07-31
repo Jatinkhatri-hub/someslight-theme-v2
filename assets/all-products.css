@@ -205,6 +205,7 @@
     display: flex;
     width: 330px;
     height: 160px;
+    object-fit: cover;
   }
 
   .theme-img {

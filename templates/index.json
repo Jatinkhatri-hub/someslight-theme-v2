@@ -64,6 +64,7 @@
         "title": "Loved By 3,000+ Happy Otakus ",
         "description": "Hear what thousands of satisfied customers have to say.",
         "reverse_check": false,
+        "background_color": "#ffffff",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -174,46 +175,52 @@
     "benefits_D9qL8t": {
       "type": "benefits",
       "blocks": {
-        "benefit_eReW98": {
-          "type": "benefit",
-          "settings": {
-            "benefit_text": ""
-          }
-        },
         "benefit_b3Abae": {
           "type": "benefit",
           "settings": {
-            "benefit_text": ""
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1.png",
+            "benefit_text": "Unique, original designs."
+          }
+        },
+        "benefit_eReW98": {
+          "type": "benefit",
+          "settings": {
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_1.png",
+            "benefit_text": "Trusted brand with 3,000+ verified reviews."
           }
         },
         "benefit_hUwbdP": {
           "type": "benefit",
           "settings": {
-            "benefit_text": ""
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_2.png",
+            "benefit_text": "Fade-resistant prints"
           }
         },
         "benefit_pPMdpJ": {
           "type": "benefit",
           "settings": {
-            "benefit_text": ""
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_3.png",
+            "benefit_text": "Hassle-free 30-day returns."
           }
         },
         "benefit_fL7pFf": {
           "type": "benefit",
           "settings": {
-            "benefit_text": ""
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_4.png",
+            "benefit_text": "Durable, high-quality anime clothing!"
           }
         },
         "benefit_AU8ANT": {
           "type": "benefit",
           "settings": {
-            "benefit_text": ""
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_5.png",
+            "benefit_text": "Fast US shipping for better quality control."
           }
         }
       },
       "block_order": [
-        "benefit_eReW98",
         "benefit_b3Abae",
+        "benefit_eReW98",
         "benefit_hUwbdP",
         "benefit_pPMdpJ",
         "benefit_fL7pFf",

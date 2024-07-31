@@ -36,13 +36,16 @@
                     </p>
                     <div class="testimonial__card-celeb-wrapper">
                       <span class="celeb-name poppins-bold">{{ block.settings.name }}</span>
-                      <div class="verified-badge>{% render 'icon-right' %} Verified Customer</div>
+                      <div class="verified-badge">{% render 'icon-right' %} Verified Customer</div>
                     </div>
                   </div>
                 </div>
             {% endcase %}
           {% endfor %}
         </div>
+        <div class="swiper-btn button--{{ section.id }} swiper-button-prev"></div>
+        <div class="swiper-pagination swiper-pagination-{{ section.id }}"></div>
+        <div class="swiper-btn button--{{ section.id }} swiper-button-next"></div>
       </div>
     </div>
 

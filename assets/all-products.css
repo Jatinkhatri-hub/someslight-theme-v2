@@ -203,7 +203,8 @@
 
   .collection-mobile-img {
     display: flex;
-    width: ;
+    width: 330px;
+    height: 160px;
   }
 
   .theme-img {

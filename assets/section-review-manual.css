@@ -173,6 +173,10 @@
     font-size: 18px;
   }
 
+  .review-manual__verified-badge {
+    font-size: 1;
+  }
+
   .review-manual__verified-badge svg {
     width: 20px;
     height: 20px;

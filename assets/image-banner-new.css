@@ -205,7 +205,7 @@
 
   .banner__value-point {
     grid-template-columns: 20px 260px;
-    font-size: rem;
+    font-size: 1.143rem;
   }
 
   .banner__review-img-wrapper {
@@ -226,7 +226,7 @@
 
   .banner__btn {
     display: flex;
-    margin-inline: 10rem;
+    margin-inline: 7rem;
   }
 
   

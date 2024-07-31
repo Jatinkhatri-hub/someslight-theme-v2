@@ -13,7 +13,8 @@
       "type": "all-products",
       "settings": {
         "theme_img": "shopify:\/\/shop_images\/2_1.png",
-        "background_color": "#FFFFFF",
+        "theme_mobile_img": "shopify:\/\/shop_images\/2_1_2.png",
+        "background_color": "#ffffff",
         "collection_id": "all-products"
       }
     },

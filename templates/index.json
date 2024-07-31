@@ -9,6 +9,14 @@
 */
 {
   "sections": {
+    "all_products_WYWeNt": {
+      "type": "all-products",
+      "settings": {
+        "theme_img": "shopify:\/\/shop_images\/2_1.png",
+        "background_color": "#FFFFFF",
+        "collection_id": "all-products"
+      }
+    },
     "section_review_XCkm6Q": {
       "type": "section-review",
       "blocks": {
@@ -1123,6 +1131,7 @@
     }
   },
   "order": [
+    "all_products_WYWeNt",
     "section_review_XCkm6Q",
     "section_review_manual_6EqwjX",
     "section_celebrity_testimonial_awJHxF",

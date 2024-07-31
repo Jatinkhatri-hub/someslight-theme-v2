@@ -10,8 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  margin: 0 3rem ;
+  gap: .714rem;
+  margin: 0 rem ;
   padding-inline: 3rem;
 }
 

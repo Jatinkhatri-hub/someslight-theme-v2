@@ -112,7 +112,9 @@
 
 @media screen and(min-width: 1200px) {
 
-  .swiper-button-prev
+  .swiper-button-prev {
+    left: 350px;
+  }
 }
 
 

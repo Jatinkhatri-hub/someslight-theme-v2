@@ -59,4 +59,7 @@
   font-size: 1.217rem;
 }
 
-.verified
+.verified-badge {
+  display: flex;
+  
+}

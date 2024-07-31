@@ -119,12 +119,12 @@
             "type": "color_background",
             "id": "background_gradient",
             "label": "Background Gradient",
-            "info": "t:settings_schema.colors.settings.background_gradient.info"
+            "info": "Background gradient replaces background where possible."
           },
           {
             "type": "color",
             "id": "text",
-            "label": "t:settings_schema.colors.settings.text.label",
+            "label": "Text",
             "default": "#121212"
           },
           {

@@ -41,6 +41,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: .714rem;
 }
 
 .review-star__wrapper {

@@ -70,6 +70,66 @@
         "padding_bottom": 36
       }
     },
+    "section_review_manual_6EqwjX": {
+      "type": "section-review-manual",
+      "blocks": {
+        "review_card_nPH6ct": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-5.png",
+            "name": "Micheal C.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        },
+        "review_card_gaKMrm": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-2.png",
+            "name": "Ichigo L.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        },
+        "review_card_UzBJ9f": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_26.png",
+            "name": "T Pain",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        },
+        "review_card_X7dAC8": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-6.png",
+            "name": "Jame K.",
+            "description": "Lorem ipsum dolor sit amet"
+          }
+        },
+        "review_card_BDWDPq": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_2.png",
+            "name": "Manav K.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        }
+      },
+      "block_order": [
+        "review_card_nPH6ct",
+        "review_card_gaKMrm",
+        "review_card_UzBJ9f",
+        "review_card_X7dAC8",
+        "review_card_BDWDPq"
+      ],
+      "settings": {
+        "title": "Header",
+        "description": "Lorem ipsum dolor sit amet",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner_HNaLRD": {
       "type": "banner",
       "blocks": {
@@ -965,6 +1025,7 @@
   },
   "order": [
     "section_review_XCkm6Q",
+    "section_review_manual_6EqwjX",
     "banner_HNaLRD",
     "liquid_eBAHgU",
     "094c4df8-8525-42e9-8423-2d9dfeadb5fe",

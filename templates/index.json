@@ -147,6 +147,72 @@
         "padding_bottom": 36
       }
     },
+    "all_products_YUq8xH": {
+      "type": "all-products",
+      "settings": {
+        "theme_img": "shopify:\/\/shop_images\/2_2.png",
+        "theme_mobile_img": "shopify:\/\/shop_images\/1_1.png",
+        "background_color": "#d7d7d7",
+        "collection_id": "test-collection",
+        "padding_top": 88,
+        "padding_bottom": 36
+      }
+    },
+    "all_products_Y7mXQh": {
+      "type": "all-products",
+      "settings": {
+        "theme_img": "shopify:\/\/shop_images\/2_1_3.png",
+        "theme_mobile_img": "shopify:\/\/shop_images\/3_1.png",
+        "background_color": "#FFFFFF",
+        "collection_id": "test-collection",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_celebrity_testimonial_awJHxF": {
+      "type": "section-celebrity-testimonial",
+      "blocks": {
+        "testimonial_card_UMkTTp": {
+          "type": "testimonial_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_24.png",
+            "title": "Lorem ipsum dolor sit amet consectetur.",
+            "name": "Alex Eubank",
+            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum  semper feugiat leo. Interdum quam laoreet.”"
+          }
+        },
+        "testimonial_card_4jVq4Q": {
+          "type": "testimonial_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_24_1.png",
+            "title": "Lorem ipsum dolor sit amet consectetur.",
+            "name": "Tyreek Hill",
+            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum semper feugiat leo. Interdum quam laoreet.”"
+          }
+        },
+        "testimonial_card_iREwBf": {
+          "type": "testimonial_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_1.png",
+            "title": "Lorem ipsum dolor sit amet consectetur.",
+            "name": "Princy K.",
+            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum semper feugiat leo. Interdum quam laoreet.”"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_card_UMkTTp",
+        "testimonial_card_4jVq4Q",
+        "testimonial_card_iREwBf"
+      ],
+      "settings": {
+        "title": "worn by celebrities",
+        "description": "Lorem ipsum dolor sit amet",
+        "background_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "section_review_XCkm6Q": {
       "type": "section-review",
       "blocks": {
@@ -266,50 +332,6 @@
         "padding_bottom": 36
       }
     },
-    "section_celebrity_testimonial_awJHxF": {
-      "type": "section-celebrity-testimonial",
-      "blocks": {
-        "testimonial_card_UMkTTp": {
-          "type": "testimonial_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_24.png",
-            "title": "Lorem ipsum dolor sit amet consectetur.",
-            "name": "Alex Eubank",
-            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum  semper feugiat leo. Interdum quam laoreet.”"
-          }
-        },
-        "testimonial_card_4jVq4Q": {
-          "type": "testimonial_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_24_1.png",
-            "title": "Lorem ipsum dolor sit amet consectetur.",
-            "name": "Tyreek Hill",
-            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum semper feugiat leo. Interdum quam laoreet.”"
-          }
-        },
-        "testimonial_card_iREwBf": {
-          "type": "testimonial_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_29_1.png",
-            "title": "Lorem ipsum dolor sit amet consectetur.",
-            "name": "Princy K.",
-            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum semper feugiat leo. Interdum quam laoreet.”"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_card_UMkTTp",
-        "testimonial_card_4jVq4Q",
-        "testimonial_card_iREwBf"
-      ],
-      "settings": {
-        "title": "Header",
-        "description": "Lorem ipsum dolor sit amet",
-        "background_color": "#ffffff",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "benefits_D9qL8t": {
       "type": "benefits",
       "blocks": {
@@ -397,9 +419,11 @@
   "order": [
     "image_banner_new_VYcbGY",
     "all_products_WYWeNt",
+    "all_products_YUq8xH",
+    "all_products_Y7mXQh",
+    "section_celebrity_testimonial_awJHxF",
     "section_review_XCkm6Q",
     "section_review_manual_6EqwjX",
-    "section_celebrity_testimonial_awJHxF",
     "benefits_D9qL8t",
     "liquid_eBAHgU",
     "liquid_wD6BHz"

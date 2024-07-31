@@ -200,12 +200,12 @@
 
   .banner__value-point-wrapper {
     padding: 0;
-    margin-inline: 10rem;
+    margin-inline: 7.143rem;
   }
 
   .banner__value-point {
     grid-template-columns: 20px 260px;
-    font-size: 1.6rem;
+    font-size: rem;
   }
 
   .banner__review-img-wrapper {

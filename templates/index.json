@@ -23,8 +23,9 @@
         "review_card_CPW4qw": {
           "type": "review_card",
           "settings": {
-            "name": "Name",
-            "description": "Lorem ipsum dolor sit amet"
+            "image": "shopify:\/\/shop_images\/Rectangle_30.png",
+            "name": "James B.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
           }
         },
         "review_card_k3Pyjz": {

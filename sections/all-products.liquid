@@ -10,17 +10,14 @@
     {{ section.settings.theme_img | image_url: width: section.settings.image.width | image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: "desktop-theme__img" }}
   {% endif %}
   {% if section.settings.theme_mobile_img != blank %}
-    {{ section.settings.theme_mobile_img | image_url: width: section.settings.image.width | image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: "collection-mobile-img" }}
+    {{ section.settings.theme_mobie | image_url: width: section.settings.image.width | image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: "collection-mobile-img" }}
   {% endif %}
 </div>
 
 <div class="carousel-container">
   {% comment %} <button class="product-list-left productlist-carousel-btn">&lt;</button> 
   <button class="product-list-right productlist-carousel-btn">&gt;</button>  {% endcomment %}
-{% comment %} <div class="products-list">
-     {% endcomment %}
-<div class="swiper mySwiper mySwiper-{{ section.id }}">
-    <div class="swiper-wrapper">
+<div class="products-list">
 
   {% for product in section.settings.collection_id.products %}
     {% assign sizes = '' %}
@@ -65,19 +62,18 @@
 
 
 
-    <h3 class="collection-product-title">{{ product.title }}</h3>
-    <h4 class="collection-product-type">{{ product.type }}</h4>
-    <div class="collection-product-price">
-    <p class="collection-price-normal">{{ product.price |  money_with_currency  }}</p>
-    {% if product.compare_at_price >= 0 %}
-    <p class="collection-price-compare">{{ product.compare_at_price |  money_with_currency }}</p>
-    {% endif %}
+ <h3 class="collection-product-title">{{ product.title }}</h3>
+ <h4 class="collection-product-type">{{ product.type }}</h4>
+ <div class="collection-product-price">
+ <p class="collection-price-normal">${{ product.price |  money_with_currency  }}</p>
+ {% if product.compare_at_price >= 0 %}
+ <p class="collection-price-compare">${{ product.compare_at_price |  money_with_currency }}</p>
+ {% endif %}
 
-    </div>
+ </div>
  </div>
 </div>
 {% endfor %}
-</div>
 </div>
 </div>
 </div>

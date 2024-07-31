@@ -228,6 +228,7 @@
 .bundle-baseline-text h6{
     font-size: 14px;
     font-weight: bolder;
+    margin: 0;
 }
 .bundle-baseline-text h6 svg{
     height: 12px;

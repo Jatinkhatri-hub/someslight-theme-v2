@@ -31,12 +31,106 @@
             "subheading_color": "#000000",
             "background_color": "#ffa500"
           }
+        },
+        "image_carousel_xRLqqC": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8HwmOFGCa_orig.jpg"
+          }
+        },
+        "image_carousel_Fq8dxj": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gug-gum-review-1.png"
+          }
+        },
+        "image_carousel_VFeWC8": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-4.png"
+          }
+        },
+        "image_carousel_xf8Nxw": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_26.png"
+          }
+        },
+        "image_carousel_rEt7en": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_1.png"
+          }
+        },
+        "image_carousel_86hR4B": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_2.png"
+          }
+        },
+        "image_carousel_XMygfd": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_28.png"
+          }
+        },
+        "image_carousel_VdHYAr": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-2.png"
+          }
+        },
+        "value_point_xPPmWf": {
+          "type": "value_point",
+          "settings": {
+            "value_point_text": "Made With Premium Fabric"
+          }
+        },
+        "value_point_ixNHL6": {
+          "type": "value_point",
+          "settings": {
+            "value_point_text": "Chic & Unique Designs"
+          }
+        },
+        "value_point_aB6P9g": {
+          "type": "value_point",
+          "settings": {
+            "value_point_text": "Perfect Blend Of Anime & Fashion"
+          }
+        },
+        "value_point_wLE8Pd": {
+          "type": "value_point",
+          "settings": {
+            "value_point_text": "Lorem ipsum dolor sit amet"
+          }
+        },
+        "button_Ckpzrk": {
+          "type": "button",
+          "settings": {
+            "button_text": "SHOP NOW",
+            "button_url": "",
+            "text_color": "#ffffff",
+            "button_background": "#000000"
+          }
         }
       },
       "block_order": [
         "reviews_9kdCEc",
         "heading_mMxMFG",
-        "subheading_RDCjHj"
+        "subheading_RDCjHj",
+        "image_carousel_xRLqqC",
+        "image_carousel_Fq8dxj",
+        "image_carousel_VFeWC8",
+        "image_carousel_xf8Nxw",
+        "image_carousel_rEt7en",
+        "image_carousel_86hR4B",
+        "image_carousel_XMygfd",
+        "image_carousel_VdHYAr",
+        "value_point_xPPmWf",
+        "value_point_ixNHL6",
+        "value_point_aB6P9g",
+        "value_point_wLE8Pd",
+        "button_Ckpzrk"
       ],
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/someslight-banner.png"

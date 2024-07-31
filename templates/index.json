@@ -152,7 +152,7 @@
       "settings": {
         "theme_img": "shopify:\/\/shop_images\/2_2.png",
         "theme_mobile_img": "shopify:\/\/shop_images\/1_1.png",
-        "background_color": "#d7d7d7",
+        "background_color": "#fafafa",
         "collection_id": "test-collection",
         "padding_top": 88,
         "padding_bottom": 36

@@ -2,11 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.429rem 1.214rem ;
+  padding: 1.429rem 1.214rem ;
   flex-direction: column;
 }
 
 .testimonial__title {
   text-align: center;
   font-size: 1.857rem;
+}
+
+.testimonial__card {
+  
 }

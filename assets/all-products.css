@@ -11,9 +11,10 @@
   height: 97px;
   width: 527px;
   object-fit: cover;
-  di
+  display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .theme-img img {

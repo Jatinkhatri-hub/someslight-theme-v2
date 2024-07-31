@@ -168,5 +168,8 @@
     font-size: 20px;
   }
 
-  .ve
+  .review-manual__verified-badge svg {
+    width: 20px;
+    height: 20px;
+  }
 }

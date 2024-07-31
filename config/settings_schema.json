@@ -136,19 +136,19 @@
           {
             "type": "color",
             "id": "button_label",
-            "label": "Solid button ",
+            "label": "Solid button label",
             "default": "#FFFFFF"
           },
           {
             "type": "color",
             "id": "secondary_button_label",
-            "label": "t:settings_schema.colors.settings.secondary_button_label.label",
+            "label": "Outline Button",
             "default": "#121212"
           },
           {
             "type": "color",
             "id": "shadow",
-            "label": "t:settings_schema.colors.settings.shadow.label",
+            "label": "S",
             "default": "#121212"
           }
         ],

@@ -110,7 +110,7 @@
   background-color: #000;
 }
 
-@media screen and (min-width: px) {
+@media screen and (min-width: 789px) {
 
   .swiper-button-prev {
     left: 350px;

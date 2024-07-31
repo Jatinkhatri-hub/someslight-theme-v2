@@ -65,10 +65,10 @@
 
 
 
- <h3 class="collection-product-title">{{ product.title }}</h3>
- <h4 class="collection-product-type">{{ product.type }}</h4>
- <div class="collection-product-price">
- <p class="collection-price-normal">${{ product.price |  money_with_currency  }}</p>
+    <h3 class="collection-product-title">{{ product.title }}</h3>
+    <h4 class="collection-product-type">{{ product.type }}</h4>
+    <div class="collection-product-price">
+    <p class="collection-price-normal">${{ product.price |  money_with_currency  }}</p>
  {% if product.compare_at_price >= 0 %}
  <p class="collection-price-compare">${{ product.compare_at_price |  money_with_currency }}</p>
  {% endif %}

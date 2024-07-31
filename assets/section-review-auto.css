@@ -1,3 +1,5 @@
+page
+
 .review-auto__wrapper {
   display: flex;
   flex-direction: column;
@@ -29,7 +31,7 @@
   padding-bottom: 3.571rem;
 }
 .swiper {
-  width: ;
+  width: 100%;
 }
 
 .review-auto__card {

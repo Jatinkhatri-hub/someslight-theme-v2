@@ -1,6 +1,6 @@
 .benefits-div{
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     padding: 20px 195px;
     display: flex;
     flex-direction: column;

@@ -169,7 +169,7 @@
   .banner__review-wrapper {
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: .714rem;
     margin-inline: 10rem;
   }
 

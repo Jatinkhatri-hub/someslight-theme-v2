@@ -18,6 +18,7 @@
   align-items: center;
   width: 340px;
   height: 250px;
+  gap: 1rem;
 }
 
 .testimonial__card-img-wrapper {

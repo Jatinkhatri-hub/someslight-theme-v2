@@ -56,6 +56,7 @@
 .testimonial__card-description {
   font-size: 1.071rem;
   align-items: start;
+  font-style: italic;
 }
 
 .testimonial__card-celeb-wrapper {

@@ -52,5 +52,6 @@
 
 .testimonial__card-description {
   font-size: 1.071rem;
-  
+  align-items: start;
 }
+

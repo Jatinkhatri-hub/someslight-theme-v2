@@ -129,7 +129,7 @@
 @media screen and (min-width: 789px) {
 
   .page-width {
-    padding 0 
+    padding: 0 .541rem;
   }
   .review-auto__title {
     font-size: 3rem;

@@ -71,6 +71,11 @@
   background: #F3F3F3;
 }
 
+.review-auto__star-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 .review-auto__star-wrapper svg {
   width: 20px;
   height: 20px;

@@ -1,0 +1,266 @@
+{{ 'image-banner-new.css' | asset_url | stylesheet_tag }}
+{{ 'https://unpkg.com/swiper/swiper-bundle.min.css' | stylesheet_tag }}
+
+<style>
+
+  .mySwiper-{{ section.id }} .swiper-slide {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  /* .swiper  { */
+  
+  @media screen and (min-width: 789px) {
+    .mySwiper-{{ section.id }} {
+      position: absolute !important;
+      bottom: -150px;
+    }
+
+    .mySwiper-{{ section.id }} .swiper-slide {
+      width: 260px !important;
+      height: 260px !important;
+    }
+  }
+
+</style>
+
+<div class="banner__wrapper">
+  <div class="banner__img-wrapper">
+    {{ section.settings.banner_image | image_url: width: section.settings.image.width | image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: "banner__img" }}
+  </div>
+  <div class="banner-info__wrapper">
+    {% assign image_carousel_started = false %}
+    {% assign image_carousel_closed = false %}
+    {% assign value_point_started = false %}
+    {% assign value_point_closed = false %} 
+
+    {% for block in section.blocks %}
+      {% if block.type == 'image_carousel' and image_carousel_started == false %}
+        <div class="swiper mySwiper mySwiper-{{ section.id }}">
+          <div class="banner__review-image-carousel swiper-wrapper">
+          {% assign image_carousel_started = true %}
+      {% endif %}
+
+      {% if block.type != 'image_carousel' and image_carousel_started == true and image_carousel_closed == false %}
+
+        </div>
+        </div>
+        {% assign image_carousel_closed = true %}
+      {% endif %}
+
+
+      {% if block.type == 'value_point' and value_point_started == false %}
+        <div class="banner__value-point-wrapper">
+        {%  assign value_point_started = true %}
+      {% endif %}
+
+      {% if block.type != 'value_point' and value_point_started == true and value_point_closed == false %}
+        </div>
+      {% endif %}
+      {% case block.type %}
+        {% when 'reviews' %}
+          <div class="banner__review-wrapper">
+            <div class="review-star__wrapper">
+              {% render 'icon-star' %}
+              {% render 'icon-star' %}
+              {% render 'icon-star' %}
+              {% render 'icon-star' %}
+              {% render 'icon-star' %}
+            </div>
+            <span class="banner__review-text poppins-regular">{{ block.settings.review-text }}</span>
+          </div>
+        {% when 'heading' %}
+          <h1 class="banner__heading poppins-black">{{ block.settings.heading }}</h1>
+        {% when 'subheading' %}
+          <h3 class="banner__subheading poppins-extrabold" 
+              style="color: {{ block.settings.subheading_color }};
+              background-color: {{ block.settings.background_color }};
+              ">
+            {{ block.settings.subheading }}
+          </h3>
+        {% when 'image_carousel' %}
+          <div class="banner__review-img-wrapper swiper-slide">
+            <img src="{{ block.settings.image | img_url: 'medium' }}" class="banner__review-img" >
+          </div>
+        {% when 'value_point' %}
+          <div class="banner__value-point">
+            {% render 'icon-right' %}
+            <span class="poppins-regular">{{ block.settings.value_point_text }}</span>
+          </div>
+        {% when 'button' %}
+          <button src="{{ block.settings.button_url }}" class="banner__btn poppins-bold" style="
+          color: {{ block.settings.text_color }};
+          background: {{ block.settings.button_background }} ">
+            {{ block.settings.button_text }}
+          </button>
+      {% endcase %}
+    {% endfor %}
+    {% if image_carousel_started and image_carousel_closed == false %}
+      </div>
+    </div>
+    {% endif %}
+
+    {% if value_point_started and value_point_closed == false %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{{ 'https://unpkg.com/swiper/swiper-bundle.min.js' | script_tag }}
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const swiperClass = `.mySwiper-{{ section.id }}`;
+
+  let swiper = new Swiper(swiperClass, {
+    centeredSlides: false, // Set to false to avoid centering
+    loop: true,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    grabCursor: true,
+    slidesPerView: 'auto',
+    spaceBetween: 10,
+    freeMode: {
+      enabled: true,
+      momentum: false,
+      momentumBounce: false,
+      momentumRatio: 0,
+      momentumVelocityRatio: 0,
+      sticky: false,
+    },
+    speed: 10000,
+    initialSlide: 0, // Ensure it starts from the first slide
+    on: {
+      click(e) {
+        swiper.slideTo(this.clickedIndex);
+      },
+    },
+  });
+});
+</script>
+
+
+
+
+{%  schema  %} 
+{
+  "name": "Bundle Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Background Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "reviews",
+      "name": "Reviews",
+      "settings": [
+        {
+          "type": "text",
+          "id": "review-text",
+          "label": "Text",
+          "default": "Review Text"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Text",
+          "default": "Heading"
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "name": "Subheading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Text",
+          "default": "Subheading"
+        },
+        {
+          "type": "color",
+          "id": "subheading_color",
+          "label": "Text Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background Color",
+          "default": "#ffffff"
+        }
+      ]
+    },
+    {
+      "type": "image_carousel",
+      "name": "Carousel Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "value_point",
+      "name": "Value Point",
+      "settings": [
+        {
+          "type": "text",
+          "id": "value_point_text",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Button"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Button Url"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_background",
+          "label": "Background Color",
+          "default": "#000000"
+        }
+        
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Bundle Banner"
+    }
+  ]
+}
+
+{% endschema %} 

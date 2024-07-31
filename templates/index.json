@@ -109,6 +109,15 @@
           "settings": {
             "value_point_text": "Lorem ipsum dolor sit amet"
           }
+        },
+        "button_gVB7E6": {
+          "type": "button",
+          "settings": {
+            "button_text": "Button",
+            "button_url": "",
+            "text_color": "#ffffff",
+            "button_background": "#000000"
+          }
         }
       },
       "block_order": [
@@ -127,7 +136,8 @@
         "value_point_kGU3iW",
         "value_point_4XKemj",
         "value_point_QBAAaF",
-        "value_point_RNeJhW"
+        "value_point_RNeJhW",
+        "button_gVB7E6"
       ],
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/someslight-banner.png"

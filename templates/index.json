@@ -31,15 +31,25 @@
         "review_card_k3Pyjz": {
           "type": "review_card",
           "settings": {
-            "name": "Name",
-            "description": "Lorem ipsum dolor sit amet"
+            "image": "shopify:\/\/shop_images\/Rectangle_28.png",
+            "name": "Skully M.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        },
+        "review_card_YjymVm": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_26.png",
+            "name": "Daniel R.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
           }
         },
         "review_card_yinYGj": {
           "type": "review_card",
           "settings": {
-            "name": "Name",
-            "description": "Lorem ipsum dolor sit amet"
+            "image": "shopify:\/\/shop_images\/gum-gum-review-6.png",
+            "name": "Tiger W.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
           }
         }
       },
@@ -47,6 +57,7 @@
         "review_card_xGCeKB",
         "review_card_CPW4qw",
         "review_card_k3Pyjz",
+        "review_card_YjymVm",
         "review_card_yinYGj"
       ],
       "settings": {

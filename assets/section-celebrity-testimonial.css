@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.429rem 1.214rem ;
+  padding: 0 1.214rem ;
   flex-direction: column;
   gap: 3rem;
 }

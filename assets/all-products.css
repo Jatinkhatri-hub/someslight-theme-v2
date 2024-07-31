@@ -204,6 +204,8 @@
   .collection-mobile-img {
     display: flex;
   }
+
+  
 }
 
 @media(min-width : 481px) and (max-width : 700px){

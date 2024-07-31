@@ -118,7 +118,7 @@
           {
             "type": "color_background",
             "id": "background_gradient",
-            "label": "t:settings_schema.colors.settings.background_gradient.label",
+            "label": "Background ",
             "info": "t:settings_schema.colors.settings.background_gradient.info"
           },
           {

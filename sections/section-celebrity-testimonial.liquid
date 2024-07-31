@@ -25,8 +25,8 @@
               {% when 'testimonial_card' %}
                 <div class="testimonial__card swiper-slide">
                   <div class="testimonial__card-img-wrapper">
-                    <img src="{{ block.settings.image |  img_url: 'medium' }}" class="testimonial" >
-                  </div>
+                    <img src="{{ block.settings.image |  img_url: 'medium' }}" class="testimonial__card-img" >
+                    </div>
                 </div>
             {% endcase %}
           {% endfor %}

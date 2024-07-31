@@ -76,7 +76,15 @@
   color: #414141;
 }
 
-.verified-badge ss
+.verified-badge svg {
+  width: 10px;
+  height: 10px;
+
+}
+
+.verified-badge svg path {
+  fill: #414141;
+}
 
 @media screen and (min-width: 789px) {
 

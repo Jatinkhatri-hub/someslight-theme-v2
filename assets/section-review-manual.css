@@ -73,6 +73,7 @@
 .review-manual__verified-badge {
   font-size: .714rem;
   color: #414141;
+  display: flex;
 }
 
 .review-manual__verified-badge svg {

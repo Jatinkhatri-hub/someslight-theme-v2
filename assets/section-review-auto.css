@@ -84,12 +84,12 @@
 }
 
 .review-auto__name {
-  font-size: 1.rem;
+  font-size: 1.214rem;
   color: #000;
 }
 
 .review-auto__verified-badge {
-  font-size: 1rem;
+  font-size: .rem;
   color: #414141;
   display: flex;
   align-items: center;

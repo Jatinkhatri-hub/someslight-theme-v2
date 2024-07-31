@@ -143,6 +143,13 @@
         "banner_image": "shopify:\/\/shop_images\/someslight-banner.png"
       }
     },
+    "all_products_w47Uk9": {
+      "type": "all-products",
+      "settings": {
+        "background_color": "#FFFFFF",
+        "collection_id": "test-collection"
+      }
+    },
     "banner_HNaLRD": {
       "type": "banner",
       "blocks": {
@@ -1037,6 +1044,7 @@
   },
   "order": [
     "image_banner_new_rNJc6m",
+    "all_products_w47Uk9",
     "banner_HNaLRD",
     "liquid_eBAHgU",
     "094c4df8-8525-42e9-8423-2d9dfeadb5fe",

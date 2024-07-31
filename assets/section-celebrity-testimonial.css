@@ -75,12 +75,14 @@
   flex-direction: row;
 }
 
-@media screen (min-width: 789px) {
+@media screen and (min-width: 789px) {
 
   .testimonial__card {
     width: 560px;
     height: 350px;
   }
+
+  
   
 }
 

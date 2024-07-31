@@ -18,7 +18,9 @@
     }
 
 
-    .mySwiper-{{ section.id }} .sw
+    .mySwiper-{{ section.id }} .swiper-button-next {
+        top: -340px;
+    }
 
   {%- endstyle -%}
 
@@ -99,7 +101,7 @@
 </div>
 <div class="swiper-btn collection-btn-prev button--{{ section.id }} swiper-button-prev"></div>
         <div class="swiper-pagination  swiper-pagination-{{ section.id }}"></div>
-        <div class="swiper-btn collection-btn-next button--{{ section.id }} swiper-button-next"></div>
+        <div class="swiper-btn collection-btn-next button--{{ section.id }} swiper-button-next swiper-button-next-{{ section.id }}"></div>
 </div>
 </div>
 </div>

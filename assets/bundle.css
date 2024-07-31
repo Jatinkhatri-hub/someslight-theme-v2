@@ -232,11 +232,13 @@
 .bundle-baseline-text h6 svg{
     height: 12px;
     width: 12px;
-    background-color: #000000;
-    color: #ffffff;
+    /* background-color: #000000;
+    color: #ffffff; */
     border-radius: 50%;
 }
 
+
+.bundle-baseline-text 
 
 
 

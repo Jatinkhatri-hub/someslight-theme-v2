@@ -137,10 +137,20 @@
             "name": "Alex Eubank",
             "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum  semper feugiat leo. Interdum quam laoreet.”"
           }
+        },
+        "testimonial_card_4jVq4Q": {
+          "type": "testimonial_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_24_1.png",
+            "title": "Lorem ipsum dolor sit amet consectetur.",
+            "name": "Tyreek Hill",
+            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum semper feugiat leo. Interdum quam laoreet.”"
+          }
         }
       },
       "block_order": [
-        "testimonial_card_UMkTTp"
+        "testimonial_card_UMkTTp",
+        "testimonial_card_4jVq4Q"
       ],
       "settings": {
         "title": "Header",

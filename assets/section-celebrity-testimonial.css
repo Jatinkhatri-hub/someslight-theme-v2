@@ -93,13 +93,11 @@
   bottom: -20px;
 }
 
-.testimonial__wrapper .swiper-button-next {
+.testimonial__wrapper .swiper-test-btn-n {
   bottom: -20px;
 }
 
-.swiper-pagination {
-  padding-bottom: 50px ;
-}
+
 
 @media screen and (min-width: 789px) {
 

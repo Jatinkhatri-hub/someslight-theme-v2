@@ -38,5 +38,7 @@
 
 .testimonial__card-info {
   width: 210px;
-  hei
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
 }

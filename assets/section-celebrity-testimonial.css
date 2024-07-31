@@ -21,5 +21,8 @@
 }
 
 .testimonial__card-img-wrapper {
-  d
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  wd
 }

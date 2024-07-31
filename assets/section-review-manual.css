@@ -11,8 +11,6 @@
   margin-bottom: 2.857rem;
 }
 
-
-
 .review-manual__img-wrapper {
   display: flex;
   justify-content: center;
@@ -125,6 +123,11 @@
 
 
 @media screen and (min-width: 789px) {
+
+  .page-width {
+    padding: 0 3.541rem;
+  }
+
   .swiper-btn {
     width: 50px;
     height: 50px;

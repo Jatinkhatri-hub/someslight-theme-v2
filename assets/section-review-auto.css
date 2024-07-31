@@ -89,7 +89,7 @@
 }
 
 .review-auto__verified-badge {
-  font-size: .rem;
+  font-size: .714rem;
   color: #414141;
   display: flex;
   align-items: center;
@@ -110,11 +110,11 @@
 
 @media screen and (min-width: 789px) {
   .review-auto__title {
-    font-size: 4.2rem;
+    font-size: 3rem;
   }
 
   .review-auto__description {
-    font-size: 1.8rem;
+    font-size: rem;
   }
 
   .review-auto__card {

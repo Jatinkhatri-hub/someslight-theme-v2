@@ -351,6 +351,17 @@
         "padding_bottom": 36
       }
     },
+    "all_products_nFrRP7": {
+      "type": "all-products",
+      "settings": {
+        "theme_img": "shopify:\/\/shop_images\/2_1_4.png",
+        "theme_mobile_img": "shopify:\/\/shop_images\/7_1.png",
+        "background_color": "#FFFFFF",
+        "collection_id": "test-collection",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "section_review_XCkm6Q": {
       "type": "section-review",
       "blocks": {
@@ -411,6 +422,39 @@
         "padding_bottom": 36
       }
     },
+    "section_review_zUwEpx": {
+      "type": "section-review",
+      "blocks": {
+        "review_card_hYtapa": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_2.png",
+            "name": "Max K.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        },
+        "review_card_9fGrn7": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_9.png",
+            "name": "Matthew R.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        }
+      },
+      "block_order": [
+        "review_card_hYtapa",
+        "review_card_9fGrn7"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "reverse_check": true,
+        "background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "liquid_eBAHgU": {
       "type": "liquid",
       "settings": {
@@ -448,7 +492,9 @@
     "benefits_D9qL8t",
     "all_products_7HkAVz",
     "section_review_manual_6EqwjX",
+    "all_products_nFrRP7",
     "section_review_XCkm6Q",
+    "section_review_zUwEpx",
     "liquid_eBAHgU",
     "liquid_wD6BHz"
   ]

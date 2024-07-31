@@ -110,8 +110,9 @@
   background-color: #000;
 }
 
-@media screen and(min-width: ) {
-  
+@media screen and(min-width: 1200px) {
+
+  .swiper-button-prev
 }
 
 

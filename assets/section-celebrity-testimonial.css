@@ -63,7 +63,9 @@
   flex-direction: column;
 }
 
-.cel
+.celeb-name {
+  font-weight: 700;
+}
 
 .verified-badge {
   display: flex;

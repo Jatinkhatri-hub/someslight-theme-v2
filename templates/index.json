@@ -146,6 +146,7 @@
     "all_products_w47Uk9": {
       "type": "all-products",
       "settings": {
+        "theme_img": "shopify:\/\/shop_images\/2_1.png",
         "background_color": "#FFFFFF",
         "collection_id": "test-collection"
       }

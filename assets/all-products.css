@@ -24,7 +24,7 @@
 }
 
 .desktop-theme__img {
-  d
+  display: flex;
 }
 
 .carousel-container {

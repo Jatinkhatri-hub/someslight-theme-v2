@@ -218,8 +218,135 @@
       "settings": {
         "theme_img": "shopify:\/\/shop_images\/2_3.png",
         "theme_mobile_img": "shopify:\/\/shop_images\/4_1.png",
-        "background_color": "#d7d7d7",
+        "background_color": "#FFFFFF",
         "collection_id": "test-collection",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "benefits_D9qL8t": {
+      "type": "benefits",
+      "blocks": {
+        "benefit_b3Abae": {
+          "type": "benefit",
+          "settings": {
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1.png",
+            "benefit_text": "Unique, original designs."
+          }
+        },
+        "benefit_eReW98": {
+          "type": "benefit",
+          "settings": {
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_1.png",
+            "benefit_text": "Trusted brand with 3,000+ verified reviews."
+          }
+        },
+        "benefit_hUwbdP": {
+          "type": "benefit",
+          "settings": {
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_2.png",
+            "benefit_text": "Fade-resistant prints"
+          }
+        },
+        "benefit_pPMdpJ": {
+          "type": "benefit",
+          "settings": {
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_3.png",
+            "benefit_text": "Hassle-free 30-day returns."
+          }
+        },
+        "benefit_fL7pFf": {
+          "type": "benefit",
+          "settings": {
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_4.png",
+            "benefit_text": "Durable, high-quality anime clothing!"
+          }
+        },
+        "benefit_AU8ANT": {
+          "type": "benefit",
+          "settings": {
+            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_5.png",
+            "benefit_text": "Fast US shipping for better quality control."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_b3Abae",
+        "benefit_eReW98",
+        "benefit_hUwbdP",
+        "benefit_pPMdpJ",
+        "benefit_fL7pFf",
+        "benefit_AU8ANT"
+      ],
+      "settings": {
+      }
+    },
+    "all_products_7HkAVz": {
+      "type": "all-products",
+      "settings": {
+        "theme_img": "shopify:\/\/shop_images\/2_5.png",
+        "theme_mobile_img": "shopify:\/\/shop_images\/Frame_1484580921.png",
+        "background_color": "#FFFFFF",
+        "collection_id": "test-collection",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_review_manual_6EqwjX": {
+      "type": "section-review-manual",
+      "blocks": {
+        "review_card_nPH6ct": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-5.png",
+            "name": "Micheal C.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        },
+        "review_card_gaKMrm": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-2.png",
+            "name": "Ichigo L.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        },
+        "review_card_UzBJ9f": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_26.png",
+            "name": "T Pain",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        },
+        "review_card_X7dAC8": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-6.png",
+            "name": "Jame K.",
+            "description": "Lorem ipsum dolor sit amet"
+          }
+        },
+        "review_card_BDWDPq": {
+          "type": "review_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_2.png",
+            "name": "Manav K.",
+            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
+          }
+        }
+      },
+      "block_order": [
+        "review_card_nPH6ct",
+        "review_card_gaKMrm",
+        "review_card_UzBJ9f",
+        "review_card_X7dAC8",
+        "review_card_BDWDPq"
+      ],
+      "settings": {
+        "title": "Loved By 3,000+ Happy Otakus ",
+        "description": "Hear what thousands of satisfied customers have to say.",
+        "background_color": "#F3F3F3",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -284,122 +411,6 @@
         "padding_bottom": 36
       }
     },
-    "section_review_manual_6EqwjX": {
-      "type": "section-review-manual",
-      "blocks": {
-        "review_card_nPH6ct": {
-          "type": "review_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gum-gum-review-5.png",
-            "name": "Micheal C.",
-            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
-          }
-        },
-        "review_card_gaKMrm": {
-          "type": "review_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gum-gum-review-2.png",
-            "name": "Ichigo L.",
-            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
-          }
-        },
-        "review_card_UzBJ9f": {
-          "type": "review_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_26.png",
-            "name": "T Pain",
-            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
-          }
-        },
-        "review_card_X7dAC8": {
-          "type": "review_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gum-gum-review-6.png",
-            "name": "Jame K.",
-            "description": "Lorem ipsum dolor sit amet"
-          }
-        },
-        "review_card_BDWDPq": {
-          "type": "review_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_29_2.png",
-            "name": "Manav K.",
-            "description": "These shorts are awesome. They’re everything I expected. Very comfortable and stylish, what more could I want?"
-          }
-        }
-      },
-      "block_order": [
-        "review_card_nPH6ct",
-        "review_card_gaKMrm",
-        "review_card_UzBJ9f",
-        "review_card_X7dAC8",
-        "review_card_BDWDPq"
-      ],
-      "settings": {
-        "title": "Header",
-        "description": "Lorem ipsum dolor sit amet",
-        "background_color": "#F3F3F3",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "benefits_D9qL8t": {
-      "type": "benefits",
-      "blocks": {
-        "benefit_b3Abae": {
-          "type": "benefit",
-          "settings": {
-            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1.png",
-            "benefit_text": "Unique, original designs."
-          }
-        },
-        "benefit_eReW98": {
-          "type": "benefit",
-          "settings": {
-            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_1.png",
-            "benefit_text": "Trusted brand with 3,000+ verified reviews."
-          }
-        },
-        "benefit_hUwbdP": {
-          "type": "benefit",
-          "settings": {
-            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_2.png",
-            "benefit_text": "Fade-resistant prints"
-          }
-        },
-        "benefit_pPMdpJ": {
-          "type": "benefit",
-          "settings": {
-            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_3.png",
-            "benefit_text": "Hassle-free 30-day returns."
-          }
-        },
-        "benefit_fL7pFf": {
-          "type": "benefit",
-          "settings": {
-            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_4.png",
-            "benefit_text": "Durable, high-quality anime clothing!"
-          }
-        },
-        "benefit_AU8ANT": {
-          "type": "benefit",
-          "settings": {
-            "benefit_image": "shopify:\/\/shop_images\/pikaso_texttoimage_Detailed-anime-depiction-of-the-Naruto-character-l_1_5.png",
-            "benefit_text": "Fast US shipping for better quality control."
-          }
-        }
-      },
-      "block_order": [
-        "benefit_b3Abae",
-        "benefit_eReW98",
-        "benefit_hUwbdP",
-        "benefit_pPMdpJ",
-        "benefit_fL7pFf",
-        "benefit_AU8ANT"
-      ],
-      "settings": {
-      }
-    },
     "liquid_eBAHgU": {
       "type": "liquid",
       "settings": {
@@ -434,9 +445,10 @@
     "all_products_Y7mXQh",
     "section_celebrity_testimonial_awJHxF",
     "all_products_YygYK6",
-    "section_review_XCkm6Q",
-    "section_review_manual_6EqwjX",
     "benefits_D9qL8t",
+    "all_products_7HkAVz",
+    "section_review_manual_6EqwjX",
+    "section_review_XCkm6Q",
     "liquid_eBAHgU",
     "liquid_wD6BHz"
   ]

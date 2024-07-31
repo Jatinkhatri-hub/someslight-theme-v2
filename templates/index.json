@@ -151,6 +151,16 @@
         "collection_id": "test-collection"
       }
     },
+    "bundle_9tPt8d": {
+      "type": "bundle",
+      "settings": {
+      }
+    },
+    "product_popup_n3ANLj": {
+      "type": "product-popup",
+      "settings": {
+      }
+    },
     "banner_HNaLRD": {
       "type": "banner",
       "blocks": {
@@ -1046,6 +1056,8 @@
   "order": [
     "image_banner_new_rNJc6m",
     "all_products_w47Uk9",
+    "bundle_9tPt8d",
+    "product_popup_n3ANLj",
     "banner_HNaLRD",
     "liquid_eBAHgU",
     "094c4df8-8525-42e9-8423-2d9dfeadb5fe",

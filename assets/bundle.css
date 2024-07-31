@@ -217,6 +217,9 @@
     border-radius: 40px;
     font-size: 21px;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bundle-baseline-text{
     display: flex;

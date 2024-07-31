@@ -103,7 +103,7 @@
     ]
   },
   {
-    "name": "t:settings_schema.colors.name",
+    "name": "Color Scheme",
     "settings": [
       {
         "type": "color_scheme_group",

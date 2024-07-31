@@ -65,6 +65,14 @@
   margin: 0;
 }
 
+.review-manual__customer-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .review-manual__name {
   font-size: 1.214rem;
   color: black;

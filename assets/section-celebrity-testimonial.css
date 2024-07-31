@@ -26,5 +26,6 @@
   align-items: center;
   width: 115px;
   height: 250px;
-  
+  overflow: hidden;
+  border-radius: ;
 }

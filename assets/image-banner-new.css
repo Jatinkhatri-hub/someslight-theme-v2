@@ -44,7 +44,8 @@
 }
 
 .review-star__wrapper {
-  displ;
+  display: flex;
+  flex-direction: row;
 }
 
 .banner__review-text {

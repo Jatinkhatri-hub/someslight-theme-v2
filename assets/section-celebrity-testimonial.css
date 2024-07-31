@@ -90,7 +90,13 @@
   fill: #414141;
 }
 
+.testimonial__wrapper .swiper-test-btn-p {
+  bottom: -20px;
+}
 
+.testimonial__wrapper .swiper-test-btn-n {
+  bottom: -20px;
+}
 
 
 

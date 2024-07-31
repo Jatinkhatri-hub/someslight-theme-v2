@@ -89,7 +89,9 @@
   fill: #414141;
 }
 
-.testimonial__wrapper .
+.testimonial__wrapper .swiper-btn {
+  
+}
 
 @media screen and (min-width: 789px) {
 

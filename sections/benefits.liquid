@@ -6,7 +6,7 @@
 
     <div class="benefits-container">
         {% for block in section.blocks %}
-        <div class="benefits-box">
+        <div class="benefits-box poppins-bold">
             <img class="benefit-img" src="{{ block.settings.benefit_image | img_url: '300x300' }}" alt="Benefit Image">
             <p class="benefit-text poppins-regular">{{ block.settings.benefit_text }}</p>
         </div>

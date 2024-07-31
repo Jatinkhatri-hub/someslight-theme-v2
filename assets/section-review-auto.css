@@ -1,4 +1,7 @@
-page-
+.page-width {
+  max-width: 1200px;
+  mar
+}
 
 .review-auto__wrapper {
   display: flex;

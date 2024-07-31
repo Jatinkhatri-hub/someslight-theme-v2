@@ -11,7 +11,9 @@
   height: 97px;
   width: 527px;
   object-fit: cover;
-  justify-content: c;
+  di
+  justify-content: center;
+  align-items: center;
 }
 
 .theme-img img {

@@ -140,6 +140,10 @@
   padding: 0;
 }
 
+.collection-btn-next {
+  t
+}
+
 /* Media Queries for Responsiveness */
 @media (max-width: 480px) {
   .collection-div {

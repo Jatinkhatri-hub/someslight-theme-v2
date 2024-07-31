@@ -146,11 +146,11 @@
       height: auto;
       display: block;
   }
-  .theme-img,
+  /* .theme-img,
   .theme-img img {
       height: 160px;
       width: 280px;
-  }
+  } */
   .carousel-container {
       width: 100%;
       margin-top: 20px;

@@ -93,7 +93,9 @@
   bottom: -20px;
 }
 
-.testimonial__wrapper .s
+.testimonial__wrapper .swiper-button-next {
+  bottom: -20px;
+}
 
 @media screen and (min-width: 789px) {
 

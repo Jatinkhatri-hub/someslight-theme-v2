@@ -139,7 +139,7 @@
   border: none;
   outline: none;
   font-size: 1.286rem;
-  border-radius: 75px;
+  font-weight: 700;
 }
 
 .banner__value-point svg {

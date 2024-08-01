@@ -146,10 +146,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "section_celebrity_testimonial_kG3dYU": {
+      "type": "section-celebrity-testimonial",
+      "blocks": {
+        "testimonial_card_3bck66": {
+          "type": "testimonial_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_24.png",
+            "title": "Lorem ipsum dolor sit amet consectetur.",
+            "name": "Alex Eubank",
+            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum semper feugiat leo. Interdum quam laoreet.”"
+          }
+        },
+        "testimonial_card_ET8RqT": {
+          "type": "testimonial_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_24_1.png",
+            "title": "Lorem ipsum dolor sit amet consectetur.",
+            "name": "Tyreek Hill",
+            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum semper feugiat leo. Interdum quam laoreet.”"
+          }
+        },
+        "testimonial_card_pFFHcr": {
+          "type": "testimonial_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_1.png",
+            "title": "Lorem ipsum dolor sit amet consectetur.",
+            "name": "Princy K.",
+            "description": "“Lorem ipsum dolor sit amet consectetur. Feugiat at ipsum facilisis at odio potenti t ipsum semper feugiat leo. Interdum quam laoreet.”"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_card_3bck66",
+        "testimonial_card_ET8RqT",
+        "testimonial_card_pFFHcr"
+      ],
+      "settings": {
+        "title": "Header",
+        "description": "Lorem ipsum dolor sit amet",
+        "background_color": "#ffffff",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_new_cwnCB4",
-    "all_products_ectikE"
+    "all_products_ectikE",
+    "section_celebrity_testimonial_kG3dYU"
   ]
 }

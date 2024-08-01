@@ -1,1 +1,152 @@
-{"sections":{"page_main_D6yCXe":{"type":"page__main","settings":{"spacing_top":60,"spacing_bottom":60,"color_scheme":"color__bg-body color__text"}},"collection_grid_B7P8Ky":{"type":"collection-grid","blocks":{"collection_ryLcKc":{"type":"collection","disabled":true,"settings":{"collection":"buy-2-get-2-free"}},"collection_cxwYhq":{"type":"collection","settings":{"collection":"mystery-sale"}},"collection_AX4RTq":{"type":"collection","settings":{"collection":"spring-sale"}},"card_hBdjEF":{"type":"card","disabled":true,"settings":{"url":"","heading":"Block heading","content":"<p>Describe a product, make announcements, or inform customers about a promotion.<\/p>","button_label":"Button","enable_autoplay":true,"enable_mute_toggle":true,"enable_loop":true,"background_color_scheme":"color__bg-body color__text","color_border":"border--width color__border-divider-1","color_button":"btn btn--secondary","column_size":"col-span-1"}}},"block_order":["collection_ryLcKc","collection_cxwYhq","collection_AX4RTq","card_hBdjEF"],"disabled":true,"settings":{"heading":"Spring Fest Sale","content":"<p>Get crazy deals as we prepare for spring.<\/p>","button_label":"","button_url":"\/collections\/all","spacing_top":100,"spacing_bottom":100,"color_scheme":"color__bg-body color__text","color_border":"color__border-divider-1","color_button":"btn btn--secondary","style_border":"border--b-width","row_size_desktop":"md:grid-cols-4","row_size_mobile":"grid grid-cols-2","layout_x_alignment":"justify-between","visibility":"","enable_collection_size_count":true}}},"order":["page_main_D6yCXe","collection_grid_B7P8Ky"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "page_main_D6yCXe": {
+      "type": "page__main",
+      "settings": {
+        "spacing_top": 60,
+        "spacing_bottom": 60,
+        "color_scheme": "color__bg-body color__text"
+      }
+    },
+    "image_banner_new_cwnCB4": {
+      "type": "image-banner-new",
+      "blocks": {
+        "reviews_Kh8Gkw": {
+          "type": "reviews",
+          "settings": {
+            "review-text": "Rated 4.8 By Thousands Of Happy Otakus"
+          }
+        },
+        "heading_kHFC34": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buy 3 Get 1 FREE"
+          }
+        },
+        "subheading_jaeLyR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Your Favorite Anime Shorts",
+            "subheading_color": "#000000",
+            "background_color": "#ffa500"
+          }
+        },
+        "image_carousel_A8pPbd": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_2.png"
+          }
+        },
+        "image_carousel_d3ecBq": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_30.png"
+          }
+        },
+        "image_carousel_AKHGtB": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_28.png"
+          }
+        },
+        "image_carousel_yaiCTf": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_26.png"
+          }
+        },
+        "image_carousel_ffDkXJ": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_29_1.png"
+          }
+        },
+        "image_carousel_rtB6D8": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kaido.jpg"
+          }
+        },
+        "image_carousel_RQiV3W": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gug-gum-review-1.png"
+          }
+        },
+        "image_carousel_mcpnc9": {
+          "type": "image_carousel",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gum-gum-review-2.png"
+          }
+        },
+        "value_point_ix3xDf": {
+          "type": "value_point",
+          "settings": {
+            "value_point_text": "Made With Premium Fabric"
+          }
+        },
+        "value_point_eNC3Kc": {
+          "type": "value_point",
+          "settings": {
+            "value_point_text": "Chic & Unique Designs"
+          }
+        },
+        "value_point_eL6CkK": {
+          "type": "value_point",
+          "settings": {
+            "value_point_text": "Perfect Blend Of Anime & Fashion"
+          }
+        },
+        "value_point_eRryPc": {
+          "type": "value_point",
+          "settings": {
+            "value_point_text": "Lorem ipsum dolor sit amet"
+          }
+        },
+        "button_7YgnkK": {
+          "type": "button",
+          "settings": {
+            "button_text": "Button",
+            "button_url": "",
+            "text_color": "#ffffff",
+            "button_background": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "reviews_Kh8Gkw",
+        "heading_kHFC34",
+        "subheading_jaeLyR",
+        "image_carousel_A8pPbd",
+        "image_carousel_d3ecBq",
+        "image_carousel_AKHGtB",
+        "image_carousel_yaiCTf",
+        "image_carousel_ffDkXJ",
+        "image_carousel_rtB6D8",
+        "image_carousel_RQiV3W",
+        "image_carousel_mcpnc9",
+        "value_point_ix3xDf",
+        "value_point_eNC3Kc",
+        "value_point_eL6CkK",
+        "value_point_eRryPc",
+        "button_7YgnkK"
+      ],
+      "settings": {
+        "banner_image": "shopify:\/\/shop_images\/someslight-banner.png"
+      }
+    }
+  },
+  "order": [
+    "page_main_D6yCXe",
+    "image_banner_new_cwnCB4"
+  ]
+}

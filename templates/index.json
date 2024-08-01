@@ -142,7 +142,7 @@
         "theme_img": "shopify:\/\/shop_images\/2_1.png",
         "theme_mobile_img": "shopify:\/\/shop_images\/2_1_2.png",
         "background_color": "#ffffff",
-        "collection_id": "test-collection",
+        "collection_id": "some-slight-cloathing",
         "padding_top": 100,
         "padding_bottom": 36
       }
@@ -153,7 +153,7 @@
         "theme_img": "shopify:\/\/shop_images\/2_2.png",
         "theme_mobile_img": "shopify:\/\/shop_images\/1_1.png",
         "background_color": "#fafafa",
-        "collection_id": "test-collection",
+        "collection_id": "some-slight-cloathing",
         "padding_top": 88,
         "padding_bottom": 36
       }
@@ -163,8 +163,8 @@
       "settings": {
         "theme_img": "shopify:\/\/shop_images\/2_1_3.png",
         "theme_mobile_img": "shopify:\/\/shop_images\/3_1.png",
-        "background_color": "#FFFFFF",
-        "collection_id": "test-collection",
+        "background_color": "#ffffff",
+        "collection_id": "some-slight-cloathing",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -218,8 +218,8 @@
       "settings": {
         "theme_img": "shopify:\/\/shop_images\/2_3.png",
         "theme_mobile_img": "shopify:\/\/shop_images\/4_1.png",
-        "background_color": "#FFFFFF",
-        "collection_id": "test-collection",
+        "background_color": "#ffffff",
+        "collection_id": "some-slight-cloathing",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -286,8 +286,8 @@
       "settings": {
         "theme_img": "shopify:\/\/shop_images\/2_5.png",
         "theme_mobile_img": "shopify:\/\/shop_images\/Frame_1484580921.png",
-        "background_color": "#FFFFFF",
-        "collection_id": "test-collection",
+        "background_color": "#ffffff",
+        "collection_id": "some-slight-cloathing",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -356,8 +356,8 @@
       "settings": {
         "theme_img": "shopify:\/\/shop_images\/2_1_4.png",
         "theme_mobile_img": "shopify:\/\/shop_images\/7_1.png",
-        "background_color": "#FFFFFF",
-        "collection_id": "test-collection",
+        "background_color": "#ffffff",
+        "collection_id": "some-slight-cloathing",
         "padding_top": 36,
         "padding_bottom": 36
       }

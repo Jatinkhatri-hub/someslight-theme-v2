@@ -9,14 +9,6 @@
 */
 {
   "sections": {
-    "page_main_D6yCXe": {
-      "type": "page__main",
-      "settings": {
-        "spacing_top": 60,
-        "spacing_bottom": 60,
-        "color_scheme": "color__bg-body color__text"
-      }
-    },
     "image_banner_new_cwnCB4": {
       "type": "image-banner-new",
       "blocks": {
@@ -143,10 +135,21 @@
       "settings": {
         "banner_image": "shopify:\/\/shop_images\/someslight-banner.png"
       }
+    },
+    "all_products_ectikE": {
+      "type": "all-products",
+      "settings": {
+        "theme_img": "shopify:\/\/shop_images\/2_1.png",
+        "theme_mobile_img": "shopify:\/\/shop_images\/2_1_2.png",
+        "background_color": "#d7d7d7",
+        "collection_id": "some-slight-cloathing",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "page_main_D6yCXe",
-    "image_banner_new_cwnCB4"
+    "image_banner_new_cwnCB4",
+    "all_products_ectikE"
   ]
 }
